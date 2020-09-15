@@ -1,4 +1,4 @@
-while True:
+def calendr():
     import calendar
     print("------Calendar Program in Python------\n");
     print("Enter 'x' for exit.");
