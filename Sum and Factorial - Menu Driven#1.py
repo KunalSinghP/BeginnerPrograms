@@ -1,4 +1,9 @@
+#Menu driven program means you have two or more choices of performing different actions in one program like we have food choice in a hotel menu
+
 def sum_num():
+    """This function gives sum upto n numbers.
+    For example: Input:5 then Output=0+1+2+3+4+5=15"""       #This is a docstring
+                    
     num=int(input('Enter Any Natural Number-'))
     s=0
     if (num>0):
@@ -9,6 +14,7 @@ def sum_num():
         print(num,'is not a natural number')
 
 def factorial():
+    """This function prints the factorial of the number given as input by the user"""   #This is a docstring
    num = int(input('Enter Any Number-'))
    factorial = 1
    if num < 0:
@@ -27,7 +33,7 @@ while a=='y':
     
     r=int(input('Choose the program you want to execute.Press 1 or 2-'))
     if r==1:
-        factorial()
+        factorial() 
     elif r==2:
         sum_num()
     else:
