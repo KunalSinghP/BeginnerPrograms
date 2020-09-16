@@ -1,4 +1,4 @@
-L1=['orange','blue','red','yellow']
+L1=['orange','blue','red','yellow'] #A readymade list
 l='y'
 while l=='y':
     x=input("Enter the colour you want to add in the list: \n")
@@ -6,7 +6,7 @@ while l=='y':
         print("Colour is already there in the list")
         p=input("Enter 'a' add it again or enter 'y' to add any other colour or enter 'x' to exit:")
         if p=='a':
-            L1.append(x)
+            L1.append(x) #To add items to the list
             print(L1)
             l=input("Enter 'y' to add any other colour or 'x' to exit:")
         elif p=='y':
@@ -19,4 +19,4 @@ while l=='y':
         print(L1)
         l=input("Enter 'y' to add any other colour or 'x' to exit:")
 else:
-    exit()
+    exit() #To exit the program
